@@ -131,6 +131,16 @@ SPECTACULAR_SETTINGS = {
     "DESCRIPTION": "REST API для системы управления заявками",
     "VERSION": "0.1.0",
     "SERVE_INCLUDE_SCHEMA": False,
+    "SWAGGER_UI_SETTINGS": {
+        "deepLinking": True,
+        "persistAuthorization": True,
+    },
+    "TAGS": [
+        {"name": "auth", "description": "Регистрация и аутентификация"},
+        {"name": "tickets", "description": "Управление заявками"},
+        {"name": "comments", "description": "Комментарии к заявкам"},
+        {"name": "attachments", "description": "Вложения к заявкам"},
+    ],
 }
 
 CORS_ALLOW_ALL_ORIGINS = DEBUG
