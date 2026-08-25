@@ -1,0 +1,29 @@
+[project]
+name = "django-ticket-api"
+version = "0.1.0"
+description = "REST API для системы управления заявками — DRF, JWT, Celery"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [
+    { name = "Makarov Stanislav", email = "stanislav@makarcorp.ru" }
+]
+keywords = ["django", "drf", "api", "tickets", "jwt"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Bug Tracking",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/makarovstv/django-ticket-api"
+Repository = "https://github.com/makarovstv/django-ticket-api"
+
+[build-system]
+requires = ["uv_build>=0.11.32,<0.12.0"]
+build-backend = "uv_build"
